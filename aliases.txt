@@ -1,0 +1,6 @@
+alias open='xdg-open'
+
+alias openConda='conda config --set auto_activate_base Ture'
+
+
+alias closeConda='conda config --set auto_activate_base False'
