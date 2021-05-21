@@ -1,0 +1,9 @@
+:set number
+:syntax on
+:set showcmd
+:set autoindent
+:set tabstop=4
+:set hlsearch
+:set incsearch
+:set ignorecase
+:set smartcase
