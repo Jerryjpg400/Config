@@ -92,7 +92,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias openCourse='cd ~/Documents/justGit/Courses/3rd_year && ls ~/Documents/justGit/Courses/3rd_year'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -117,45 +116,32 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# adds 'xdg-open' alias
+# Some alias
 alias open='xdg-open'
-alias openConda='/home/cccc/anaconda3/bin/anaconda-navigator'
-alias zotero='/home/cccc/opt/Zotero_linux-x86_64/zotero'
-alias eclipse='/home/cccc/opt/eclipse/eclipse'
-alias hwhile='~/opt/hwhile'
+alias openConda='~/anaconda3/bin/anaconda-navigator'
 alias openMPdf='ls *.pdf | xargs -n 1 xdg-open'
-alias openLearning='cd /home/cccc/Documents/justGit/Learning/ && ls'
-alias openBook='cd /home/cccc/Documents/justGit/icloud_book/ && ls'
-#Xalias matlib='/usr/local/MATLAB/R2020b/bin/matlab'
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/cccc/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/cccc/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/cccc/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/cccc/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# export JAVA PATH
-#export JAVA_HOME=/usr/jdk/jdk1.8.0_271
-export JAVA_HOME=/usr/jdk/jdk1.8.0_281
-#export JAVA_HOME=/usr/jdk/jdk-11.0.9
-export PATH=$JAVA_HOME/bin:$PATH
-
-# export conda
-export PATH=$HOME/anaconda3/bin:$PATH
-
-QT_AUTO_SCREEN_SCALE_FACTOR=1
+alias openLearning='cd ~/Documents/github.com/Learning/ && ls'
+alias openCourses='cd ~/Documents/github.com/Courses/ && ls'
+alias openBook='cd ~/Documents/github.com/icloud_book/ && ls'
+alias openGit='cd ~/Documents/github.com/ && ls'
 
 #IBus
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
+
+# web proxy
+export http_proxy=http://127.0.0.1:8889
+export HTTP_PROXY=http://127.0.0.1:8889
+
+export https_proxy=http://127.0.0.1:8889
+export HTTPS_PROXY=http://127.0.0.1:8889
+
+export ALL_PROXY=socket5://127.0.0.1:1089
+export all_proxy=socket5://127.0.0.1:1089
+
+# Ignore duplicates in command history and increase
+# history size to 1000 lines
+export HISTCONTROL=ignoredups
+export HITSIZE=1000
+
