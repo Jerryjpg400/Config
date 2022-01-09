@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Anaconda
+Exec=/home/cccc/anaconda3/bin/anaconda-navigator
+Icon=/home/cccc/anaconda3/lib/python3.9/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
+Terminal=Fales
+Categories=Scienctic computing;

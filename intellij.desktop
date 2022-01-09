@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=13.0
+Type=Application
+Name=IntelliJ
+Exec=/opt/idea-IU-213.6461.79/bin/idea.sh
+Icon=/opt/idea-IU-213.6461.79/bin/idea.png
+Terminal=false
+Comment=Java IDE
+Categories=Languages;Java;Tools;

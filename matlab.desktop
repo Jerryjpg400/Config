@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MATLAB
+Exec=env MESA_LOADER_DRIVER_OVERRIDE=i965 /home/cccc/MATLAB/bin/matlab -desktop -prefersoftwareopengl
+Icon=/home/cccc/MATLAB/bin/glnxa64/cef_resources/matlab_icon.png
+Terminal=False
+Categories=Math;Scicence Computation;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pycharm
+Exec=/opt/pycharm-2021.3.1/bin/pycharm.sh
+Icon=/opt/pycharm-2021.3.1/bin/pycharm.png
+Terminal=false
+Comment=Python IDE
+Categories=Languages;Python;Tools;
